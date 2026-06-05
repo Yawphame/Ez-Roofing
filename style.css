@@ -34,10 +34,9 @@ img{
     border-bottom:1px solid #ececec;
 }
 
-.logo{
-    font-family:'Montserrat',sans-serif;
-    font-size:1.2rem;
-    font-weight:700;
+.logo img{
+    height:60px;
+    width:auto;
 }
 
 .menu-btn{
