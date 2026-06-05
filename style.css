@@ -153,3 +153,6 @@ img{
     width: auto;
     display: block;
 }
+.hero-image img{
+    border-radius: 20px;
+}
