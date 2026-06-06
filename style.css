@@ -348,3 +348,32 @@ letter-spacing: -1px;
     font-weight:600;
     box-shadow:0 5px 15px rgba(0,0,0,.04);
 }
+/* FAQ */
+
+.faq{
+    padding:5rem 1.25rem;
+    background:#fafafa;
+}
+
+.faq-container{
+    display:grid;
+    gap:1rem;
+}
+
+.faq-item{
+    background:white;
+    padding:1.5rem;
+    border-radius:18px;
+    border:1px solid #ececec;
+}
+
+.faq-item h3{
+    font-family:'Montserrat',sans-serif;
+    margin-bottom:.75rem;
+    font-size:1.05rem;
+}
+
+.faq-item p{
+    color:#6b7280;
+    line-height:1.7;
+}
