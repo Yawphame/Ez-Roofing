@@ -428,3 +428,31 @@ letter-spacing: -1px;
     color:#9ca3af;
     margin-bottom:.75rem;
 }
+/* TRUST GRID */
+
+.trust-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:.75rem;
+    margin-bottom:2rem;
+}
+
+.trust-item{
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+
+    background:white;
+    border:1px solid #ececec;
+
+    padding:.9rem 1rem;
+    border-radius:12px;
+
+    font-size:.9rem;
+    font-weight:600;
+}
+
+.trust-item i{
+    color:#c62828;
+    font-size:1.1rem;
+}
