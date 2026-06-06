@@ -50,11 +50,19 @@ img{
 /* HERO */
 
 .hero{
+    background:
+    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+    url("hero-bg.JPG");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     padding:2rem 1.25rem 4rem;
 }
 
 .location{
-    color:#c62828;
+    color:white;
 
     font-weight:600;
 
@@ -64,6 +72,8 @@ img{
 }
 
 .hero h1{
+    color:white;
+    }
     font-family:'Montserrat',sans-serif;
 
     font-size:2.3rem;
@@ -78,7 +88,7 @@ letter-spacing: -1px;
 .hero p{
     font-size:1rem;
 
-    color:#4b5563;
+    color:white;
 
     line-height:1.7;
 
