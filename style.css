@@ -456,3 +456,9 @@ letter-spacing: -1px;
     color:#c62828;
     font-size:1.1rem;
 }
+.service-icon{
+    font-size:2rem;
+    color:#c62828;
+    margin-bottom:1rem;
+    display:block;
+}
