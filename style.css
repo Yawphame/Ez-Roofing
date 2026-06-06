@@ -248,3 +248,40 @@ letter-spacing: -1px;
     transform:translateY(-4px);
     box-shadow:0 10px 25px rgba(0,0,0,.08);
 }
+/* GALLERY */
+
+.gallery{
+    padding:5rem 1.25rem;
+}
+
+.gallery-grid{
+    display:grid;
+    gap:1.5rem;
+}
+
+.gallery-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+.gallery-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.gallery-content{
+    padding:1.5rem;
+}
+
+.gallery-content h3{
+    margin-bottom:.75rem;
+    font-family:'Montserrat',sans-serif;
+}
+
+.gallery-content p{
+    color:#6b7280;
+    line-height:1.6;
+}
