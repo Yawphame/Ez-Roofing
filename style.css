@@ -125,13 +125,13 @@ letter-spacing: -1px;
 
 /* TRUST PILLS */
 
-.trust-pills{
-    display:flex;
-    flex-wrap:wrap;
-
-    gap:.75rem;
-
-    margin-bottom:2rem;
+.trust-pills span{
+    background:#ffffff;
+    padding:.75rem 1rem;
+    border-radius:999px;
+    font-size:.9rem;
+    font-weight:500;
+    border:1px solid #e5e7eb;
 }
 
 .trust-pills span{
