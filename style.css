@@ -169,8 +169,9 @@ letter-spacing: -1px;
 }
 
 .section-heading{
+    max-width:700px;
+    margin:0 auto 2.5rem;
     text-align:center;
-    margin-bottom:2.5rem;
 }
 
 .section-tag{
