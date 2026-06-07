@@ -504,3 +504,25 @@ img{
 .hero-image{
     display:none;
 }
+.nav-links{
+    display:none;
+}
+
+.nav-links.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    right:20px;
+    background:white;
+    padding:1rem;
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    gap:1rem;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#111827;
+    font-weight:600;
+}
