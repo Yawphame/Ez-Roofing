@@ -125,8 +125,10 @@ img{
     transform:translateY(-2px);
 }
 .btn-secondary{
-    border:2px solid #1f2937;
-    color:#1f2937;
+    background:white;
+    border:2px solid white;
+    color:#c62828;
+    font-weight:700;
 }
 
 /* TRUST PILLS */
